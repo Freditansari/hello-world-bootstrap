@@ -1,0 +1,30 @@
+table{
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    border-collapse: collapse;
+    width: 500px;
+}
+
+td, th{
+    border: 0.5px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+.container{
+    background: transparent;
+}
+
+.border{
+    background :gray;
+}
+
+.bg-custom{
+    /* background-color: linear-gradient(#3ABAE9, #0077a3)!important;  */
+    background: linear-gradient(#3ABAE9, #0077a3)!important;;
+}
+
+
